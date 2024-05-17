@@ -1,0 +1,85 @@
+.content{
+    max-width: fit-content;
+}
+
+body {
+    background-color: #fcfbfb; 
+    color: white;
+}
+header {
+    background-color:#586053;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+#hero{
+    color: black;
+    text-align: center;
+}
+
+.book, .join{
+    color: black;
+}
+.book:hover, .join:hover{
+    background-color: #d9c2a3;
+    ;
+}
+#background{
+    height: 725px;
+    background-color: #d9c2a3;
+    
+}
+.msg{
+    text-align: center;
+    background-color: #6f7364;
+}
+
+#hero-img{
+    background-size: 100vw 100vh;
+}
+
+nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    text-align: center;
+}
+
+.msg h2{
+    background-color: #6f7364;
+}
+.msg p{
+    background-color: #6f7364;
+}
+.join{
+    text-decoration: none;
+}
+footer{
+    background-color: #6f7364;
+    color: #d9c2a3;
+}
+footer a{
+    background-color: #6f7364;
+    color: #d9c2a3;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #6f7364;
+}
+
+.icon {
+    width: 80px;
+}
+        
+
+
+
+
+
