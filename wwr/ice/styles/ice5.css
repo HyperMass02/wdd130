@@ -1,0 +1,26 @@
+*{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+body img.background{
+    width: 100%;
+}
+
+
+body img.circles{
+    margin-left: 40px;
+    width: 19%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 15px;
+    border-radius: 360px
+    
+
+}
+
+/* boderradius */
