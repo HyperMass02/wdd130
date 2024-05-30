@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.title{
+    z-index: 9;
+    grid-column: 1/2;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+}
+
+img{
+    z-index: 1;
+    grid-row: 1/4;
+    grid-column: 1/3;
+    background-color: white;
+
+}
+
+.words{
+    z-index: 2;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    color: red;
+    font-size: 60px;
+}
+
+.greybox{
+    z-index: 1;
+    grid-row: 1/5;
+    grid-column: 2/3;
+    background-color: gray;
+}
+
+body{
+    margin: 0;
+}
