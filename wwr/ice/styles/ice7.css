@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.date{
+    color: #556d98;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+.title{
+    color: black;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+.card{
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+.article{
+    padding: 10%;
+    text-align: center;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 15px;
+    background-color: #556d98;
+    grid-column-gap: 2px;
+}
+.bottomleft{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column: 1/2;
+    font-size: 25px;
+    color: white;
+}
+.bottomiddle{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column: 2/3;
+    font-size: 25px;
+    color: white;
+}
+.bottomright{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column: 3/4;
+    font-size: 25px;
+    color: white;
+}
+.time1{
+    grid-row: 1/2;
+    font-size: 20px;
+    color: white;
+}
+.time2{
+    grid-row: 2/3;
+    font-size: 15px;
+    color: white;
+}
+.view1{
+    grid-row: 1/2;
+    font-size: 20px;
+    color: white;
+}
+.view2{
+    grid-row: 2/3;
+    font-size: 15px;
+    color: white;
+}
+.comment1{
+    grid-row: 1/2;
+    font-size: 20px;
+    color: white;
+}
+.comment2{
+    grid-row: 2/3;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
