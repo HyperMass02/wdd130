@@ -26,6 +26,28 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+.faq{
+    background-image: linear-gradient(to right, #fcfbfb, lightcyan);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+    
+}
+.question{
+    background-image: linear-gradient(to right, lightcyan, #fcfbfb);
+    color: dimgrey;
+    font-size: 40px;
+    grid-column: 2/3;
+    border-style: outset;
+}
+.answer{
+    background-image: linear-gradient(to right, lightcyan, #fcfbfb);
+    color: lightslategray;
+    font-size: 20px;
+    grid-column: 2/3;
+    border-style: outset;   
+}
+
 
 h2 {
     margin: 0;
